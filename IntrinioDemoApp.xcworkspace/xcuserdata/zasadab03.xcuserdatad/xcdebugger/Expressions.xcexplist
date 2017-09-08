@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TableViewSymbolSearch.resultsReceived(withData:urlResponse:error:):TableViewSymbolSearch.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DataViewController.tableView(_:cellForRowAt:):DataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "symbol.symbol">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataViewController.tickerSymbolUpdated(_:priceResponse:):DataViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ModelController.pageViewController(_:viewControllerAfter:):ModelController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.pageData.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableViewSymbolSearch.tableView(_:numberOfRowsInSection:):TableViewSymbolSearch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tickerSymbols!.data.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataViewController.setPageData(_:):DataViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DataViewController.reloadPageData():DataViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TableViewSymbolSearch.tableView(_:cellForRowAt:):TableViewSymbolSearch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tickerSymbolLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TableViewSymbolSearch.tableView(_:didSelectRowAt:):TableViewSymbolSearch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentingViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableViewSymbolSearch.tableView(_:didSelectRowAt:):TableViewSymbolSearch.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DataViewController.deleteRow(_:):DataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageList.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ModelController.init():ModelController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

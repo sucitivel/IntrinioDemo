@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27671E1D4C8D84099B7B8BEF /* Pods_IntrinioDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E9853A5F09F401CF6EDB4 /* Pods_IntrinioDemoAppTests.framework */; };
+		4ACF961D4186F1A585723913 /* Pods_IntrinioDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FC78A81788CB9EE14CC10E /* Pods_IntrinioDemoAppUITests.framework */; };
+		EC5406DD1F4F73DA00FF228B /* TickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5406DC1F4F73DA00FF228B /* TickerTableViewCell.swift */; };
+		EC5406DF1F4F74CA00FF228B /* TickerTableViewAddItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5406DE1F4F74CA00FF228B /* TickerTableViewAddItemCell.swift */; };
+		EC5406E21F50BBFE00FF228B /* TickerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC5406E01F50BBFE00FF228B /* TickerModel.xcdatamodeld */; };
+		EC5406E41F50C92300FF228B /* TableViewSymbolSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5406E31F50C92300FF228B /* TableViewSymbolSearch.swift */; };
+		EC6D74AE1F560F5300D9DD02 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D74AD1F560F5300D9DD02 /* Utilities.swift */; };
+		EC77A3C81F4B9B500084C1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3C71F4B9B500084C1D4 /* AppDelegate.swift */; };
+		EC77A3CA1F4B9B500084C1D4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3C91F4B9B500084C1D4 /* RootViewController.swift */; };
+		EC77A3CC1F4B9B500084C1D4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3CB1F4B9B500084C1D4 /* DataViewController.swift */; };
+		EC77A3CE1F4B9B500084C1D4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3CD1F4B9B500084C1D4 /* ModelController.swift */; };
+		EC77A3D11F4B9B500084C1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC77A3CF1F4B9B500084C1D4 /* Main.storyboard */; };
+		EC77A3D31F4B9B500084C1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC77A3D21F4B9B500084C1D4 /* Assets.xcassets */; };
+		EC77A3D61F4B9B500084C1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC77A3D41F4B9B500084C1D4 /* LaunchScreen.storyboard */; };
+		EC77A3E11F4B9B500084C1D4 /* IntrinioDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3E01F4B9B500084C1D4 /* IntrinioDemoAppTests.swift */; };
+		EC77A3EC1F4B9B500084C1D4 /* IntrinioDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3EB1F4B9B500084C1D4 /* IntrinioDemoAppUITests.swift */; };
+		EC77A3FA1F4E14D00084C1D4 /* IntrinioConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77A3F91F4E14D00084C1D4 /* IntrinioConnector.swift */; };
+		F111C91968A2D57711A92DA3 /* Pods_IntrinioDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C831B3B1F9D50A068C99FD /* Pods_IntrinioDemoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC77A3DD1F4B9B500084C1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC77A3BC1F4B9B500084C1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC77A3C31F4B9B500084C1D4;
+			remoteInfo = IntrinioDemoApp;
+		};
+		EC77A3E81F4B9B500084C1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC77A3BC1F4B9B500084C1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC77A3C31F4B9B500084C1D4;
+			remoteInfo = IntrinioDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24ED933534BFE17EED6FC7F5 /* Pods-IntrinioDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoAppTests/Pods-IntrinioDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50FC78A81788CB9EE14CC10E /* Pods_IntrinioDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntrinioDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A75B2F3F44F785333551E58 /* Pods-IntrinioDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoApp/Pods-IntrinioDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		80A0B162C3FB1649FD75A2C6 /* Pods-IntrinioDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoApp/Pods-IntrinioDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8F4DAFF477169B27D2FBE6C4 /* Pods-IntrinioDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoAppTests/Pods-IntrinioDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		957E9853A5F09F401CF6EDB4 /* Pods_IntrinioDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntrinioDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB62ABF1A14012A4B32DA86 /* Pods-IntrinioDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoAppUITests/Pods-IntrinioDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3C831B3B1F9D50A068C99FD /* Pods_IntrinioDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntrinioDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5641C14CF4108FDE8083A3A /* Pods-IntrinioDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntrinioDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntrinioDemoAppUITests/Pods-IntrinioDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5406DC1F4F73DA00FF228B /* TickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTableViewCell.swift; sourceTree = "<group>"; };
+		EC5406DE1F4F74CA00FF228B /* TickerTableViewAddItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTableViewAddItemCell.swift; sourceTree = "<group>"; };
+		EC5406E11F50BBFE00FF228B /* TickerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickerModel.xcdatamodel; sourceTree = "<group>"; };
+		EC5406E31F50C92300FF228B /* TableViewSymbolSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSymbolSearch.swift; sourceTree = "<group>"; };
+		EC6D74AD1F560F5300D9DD02 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EC77A3C41F4B9B500084C1D4 /* IntrinioDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntrinioDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77A3C71F4B9B500084C1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC77A3C91F4B9B500084C1D4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		EC77A3CB1F4B9B500084C1D4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		EC77A3CD1F4B9B500084C1D4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		EC77A3D01F4B9B500084C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC77A3D21F4B9B500084C1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC77A3D51F4B9B500084C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC77A3D71F4B9B500084C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC77A3DC1F4B9B500084C1D4 /* IntrinioDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntrinioDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77A3E01F4B9B500084C1D4 /* IntrinioDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinioDemoAppTests.swift; sourceTree = "<group>"; };
+		EC77A3E21F4B9B500084C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC77A3E71F4B9B500084C1D4 /* IntrinioDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntrinioDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77A3EB1F4B9B500084C1D4 /* IntrinioDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinioDemoAppUITests.swift; sourceTree = "<group>"; };
+		EC77A3ED1F4B9B500084C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC77A3F91F4E14D00084C1D4 /* IntrinioConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinioConnector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC77A3C11F4B9B500084C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F111C91968A2D57711A92DA3 /* Pods_IntrinioDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3D91F4B9B500084C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27671E1D4C8D84099B7B8BEF /* Pods_IntrinioDemoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3E41F4B9B500084C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF961D4186F1A585723913 /* Pods_IntrinioDemoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F734590AD7C4791FD840073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C831B3B1F9D50A068C99FD /* Pods_IntrinioDemoApp.framework */,
+				957E9853A5F09F401CF6EDB4 /* Pods_IntrinioDemoAppTests.framework */,
+				50FC78A81788CB9EE14CC10E /* Pods_IntrinioDemoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B164AA10619897DC12A858BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A75B2F3F44F785333551E58 /* Pods-IntrinioDemoApp.debug.xcconfig */,
+				80A0B162C3FB1649FD75A2C6 /* Pods-IntrinioDemoApp.release.xcconfig */,
+				24ED933534BFE17EED6FC7F5 /* Pods-IntrinioDemoAppTests.debug.xcconfig */,
+				8F4DAFF477169B27D2FBE6C4 /* Pods-IntrinioDemoAppTests.release.xcconfig */,
+				C5641C14CF4108FDE8083A3A /* Pods-IntrinioDemoAppUITests.debug.xcconfig */,
+				9BB62ABF1A14012A4B32DA86 /* Pods-IntrinioDemoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC6D74EC1F5766EE00D9DD02 /* StoryboardClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EC5406DC1F4F73DA00FF228B /* TickerTableViewCell.swift */,
+				EC5406DE1F4F74CA00FF228B /* TickerTableViewAddItemCell.swift */,
+			);
+			path = StoryboardClasses;
+			sourceTree = "<group>";
+		};
+		EC6D74ED1F57670D00D9DD02 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC77A3F91F4E14D00084C1D4 /* IntrinioConnector.swift */,
+				EC6D74AD1F560F5300D9DD02 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EC77A3BB1F4B9B500084C1D4 = {
+			isa = PBXGroup;
+			children = (
+				EC77A3C61F4B9B500084C1D4 /* IntrinioDemoApp */,
+				EC77A3DF1F4B9B500084C1D4 /* IntrinioDemoAppTests */,
+				EC77A3EA1F4B9B500084C1D4 /* IntrinioDemoAppUITests */,
+				EC77A3C51F4B9B500084C1D4 /* Products */,
+				B164AA10619897DC12A858BA /* Pods */,
+				3F734590AD7C4791FD840073 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC77A3C51F4B9B500084C1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC77A3C41F4B9B500084C1D4 /* IntrinioDemoApp.app */,
+				EC77A3DC1F4B9B500084C1D4 /* IntrinioDemoAppTests.xctest */,
+				EC77A3E71F4B9B500084C1D4 /* IntrinioDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC77A3C61F4B9B500084C1D4 /* IntrinioDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC77A3C71F4B9B500084C1D4 /* AppDelegate.swift */,
+				EC77A3C91F4B9B500084C1D4 /* RootViewController.swift */,
+				EC77A3CB1F4B9B500084C1D4 /* DataViewController.swift */,
+				EC77A3CD1F4B9B500084C1D4 /* ModelController.swift */,
+				EC5406E31F50C92300FF228B /* TableViewSymbolSearch.swift */,
+				EC6D74EC1F5766EE00D9DD02 /* StoryboardClasses */,
+				EC6D74ED1F57670D00D9DD02 /* Utilities */,
+				EC5406E01F50BBFE00FF228B /* TickerModel.xcdatamodeld */,
+				EC77A3CF1F4B9B500084C1D4 /* Main.storyboard */,
+				EC77A3D21F4B9B500084C1D4 /* Assets.xcassets */,
+				EC77A3D41F4B9B500084C1D4 /* LaunchScreen.storyboard */,
+				EC77A3D71F4B9B500084C1D4 /* Info.plist */,
+			);
+			path = IntrinioDemoApp;
+			sourceTree = "<group>";
+		};
+		EC77A3DF1F4B9B500084C1D4 /* IntrinioDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC77A3E01F4B9B500084C1D4 /* IntrinioDemoAppTests.swift */,
+				EC77A3E21F4B9B500084C1D4 /* Info.plist */,
+			);
+			path = IntrinioDemoAppTests;
+			sourceTree = "<group>";
+		};
+		EC77A3EA1F4B9B500084C1D4 /* IntrinioDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC77A3EB1F4B9B500084C1D4 /* IntrinioDemoAppUITests.swift */,
+				EC77A3ED1F4B9B500084C1D4 /* Info.plist */,
+			);
+			path = IntrinioDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC77A3C31F4B9B500084C1D4 /* IntrinioDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77A3F01F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoApp" */;
+			buildPhases = (
+				1FFB99A392E4D8BCF5526573 /* [CP] Check Pods Manifest.lock */,
+				EC77A3C01F4B9B500084C1D4 /* Sources */,
+				EC77A3C11F4B9B500084C1D4 /* Frameworks */,
+				EC77A3C21F4B9B500084C1D4 /* Resources */,
+				03E71ACAE27609AACCFDE351 /* [CP] Embed Pods Frameworks */,
+				1CD2F82933981D33082B4CD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntrinioDemoApp;
+			productName = IntrinioDemoApp;
+			productReference = EC77A3C41F4B9B500084C1D4 /* IntrinioDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC77A3DB1F4B9B500084C1D4 /* IntrinioDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77A3F31F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoAppTests" */;
+			buildPhases = (
+				47D6F18BCDD8FF6D7AB4A7AD /* [CP] Check Pods Manifest.lock */,
+				EC77A3D81F4B9B500084C1D4 /* Sources */,
+				EC77A3D91F4B9B500084C1D4 /* Frameworks */,
+				EC77A3DA1F4B9B500084C1D4 /* Resources */,
+				6C5B8F3F37F397B6CCF84472 /* [CP] Embed Pods Frameworks */,
+				2B9E6EEEDC21174AB8B30E01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC77A3DE1F4B9B500084C1D4 /* PBXTargetDependency */,
+			);
+			name = IntrinioDemoAppTests;
+			productName = IntrinioDemoAppTests;
+			productReference = EC77A3DC1F4B9B500084C1D4 /* IntrinioDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC77A3E61F4B9B500084C1D4 /* IntrinioDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77A3F61F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoAppUITests" */;
+			buildPhases = (
+				FF32C3EF7FDA3A075912E7A4 /* [CP] Check Pods Manifest.lock */,
+				EC77A3E31F4B9B500084C1D4 /* Sources */,
+				EC77A3E41F4B9B500084C1D4 /* Frameworks */,
+				EC77A3E51F4B9B500084C1D4 /* Resources */,
+				C36E3B6D998A023ADA6BA101 /* [CP] Embed Pods Frameworks */,
+				CA56C697DDB1812A6BDE454E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC77A3E91F4B9B500084C1D4 /* PBXTargetDependency */,
+			);
+			name = IntrinioDemoAppUITests;
+			productName = IntrinioDemoAppUITests;
+			productReference = EC77A3E71F4B9B500084C1D4 /* IntrinioDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC77A3BC1F4B9B500084C1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = PrototypeB;
+				TargetAttributes = {
+					EC77A3C31F4B9B500084C1D4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					EC77A3DB1F4B9B500084C1D4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = EC77A3C31F4B9B500084C1D4;
+					};
+					EC77A3E61F4B9B500084C1D4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = EC77A3C31F4B9B500084C1D4;
+					};
+				};
+			};
+			buildConfigurationList = EC77A3BF1F4B9B500084C1D4 /* Build configuration list for PBXProject "IntrinioDemoApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC77A3BB1F4B9B500084C1D4;
+			productRefGroup = EC77A3C51F4B9B500084C1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC77A3C31F4B9B500084C1D4 /* IntrinioDemoApp */,
+				EC77A3DB1F4B9B500084C1D4 /* IntrinioDemoAppTests */,
+				EC77A3E61F4B9B500084C1D4 /* IntrinioDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC77A3C21F4B9B500084C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77A3D61F4B9B500084C1D4 /* LaunchScreen.storyboard in Resources */,
+				EC77A3D31F4B9B500084C1D4 /* Assets.xcassets in Resources */,
+				EC77A3D11F4B9B500084C1D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3DA1F4B9B500084C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3E51F4B9B500084C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E71ACAE27609AACCFDE351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoApp/Pods-IntrinioDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD2F82933981D33082B4CD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoApp/Pods-IntrinioDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFB99A392E4D8BCF5526573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9E6EEEDC21174AB8B30E01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoAppTests/Pods-IntrinioDemoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D6F18BCDD8FF6D7AB4A7AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5B8F3F37F397B6CCF84472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoAppTests/Pods-IntrinioDemoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36E3B6D998A023ADA6BA101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoAppUITests/Pods-IntrinioDemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA56C697DDB1812A6BDE454E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntrinioDemoAppUITests/Pods-IntrinioDemoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF32C3EF7FDA3A075912E7A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC77A3C01F4B9B500084C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5406DD1F4F73DA00FF228B /* TickerTableViewCell.swift in Sources */,
+				EC5406E41F50C92300FF228B /* TableViewSymbolSearch.swift in Sources */,
+				EC77A3CA1F4B9B500084C1D4 /* RootViewController.swift in Sources */,
+				EC5406DF1F4F74CA00FF228B /* TickerTableViewAddItemCell.swift in Sources */,
+				EC5406E21F50BBFE00FF228B /* TickerModel.xcdatamodeld in Sources */,
+				EC77A3CE1F4B9B500084C1D4 /* ModelController.swift in Sources */,
+				EC77A3CC1F4B9B500084C1D4 /* DataViewController.swift in Sources */,
+				EC77A3FA1F4E14D00084C1D4 /* IntrinioConnector.swift in Sources */,
+				EC6D74AE1F560F5300D9DD02 /* Utilities.swift in Sources */,
+				EC77A3C81F4B9B500084C1D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3D81F4B9B500084C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77A3E11F4B9B500084C1D4 /* IntrinioDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77A3E31F4B9B500084C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77A3EC1F4B9B500084C1D4 /* IntrinioDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC77A3DE1F4B9B500084C1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC77A3C31F4B9B500084C1D4 /* IntrinioDemoApp */;
+			targetProxy = EC77A3DD1F4B9B500084C1D4 /* PBXContainerItemProxy */;
+		};
+		EC77A3E91F4B9B500084C1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC77A3C31F4B9B500084C1D4 /* IntrinioDemoApp */;
+			targetProxy = EC77A3E81F4B9B500084C1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC77A3CF1F4B9B500084C1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC77A3D01F4B9B500084C1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC77A3D41F4B9B500084C1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC77A3D51F4B9B500084C1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC77A3EE1F4B9B500084C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC77A3EF1F4B9B500084C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC77A3F11F4B9B500084C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A75B2F3F44F785333551E58 /* Pods-IntrinioDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC77A3F21F4B9B500084C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A0B162C3FB1649FD75A2C6 /* Pods-IntrinioDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC77A3F41F4B9B500084C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ED933534BFE17EED6FC7F5 /* Pods-IntrinioDemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntrinioDemoApp.app/IntrinioDemoApp";
+			};
+			name = Debug;
+		};
+		EC77A3F51F4B9B500084C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4DAFF477169B27D2FBE6C4 /* Pods-IntrinioDemoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntrinioDemoApp.app/IntrinioDemoApp";
+			};
+			name = Release;
+		};
+		EC77A3F71F4B9B500084C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5641C14CF4108FDE8083A3A /* Pods-IntrinioDemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntrinioDemoApp;
+			};
+			name = Debug;
+		};
+		EC77A3F81F4B9B500084C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB62ABF1A14012A4B32DA86 /* Pods-IntrinioDemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5RV9F6TWQD;
+				INFOPLIST_FILE = IntrinioDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = three4twenty.IntrinioDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntrinioDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC77A3BF1F4B9B500084C1D4 /* Build configuration list for PBXProject "IntrinioDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77A3EE1F4B9B500084C1D4 /* Debug */,
+				EC77A3EF1F4B9B500084C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77A3F01F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77A3F11F4B9B500084C1D4 /* Debug */,
+				EC77A3F21F4B9B500084C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77A3F31F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77A3F41F4B9B500084C1D4 /* Debug */,
+				EC77A3F51F4B9B500084C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77A3F61F4B9B500084C1D4 /* Build configuration list for PBXNativeTarget "IntrinioDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77A3F71F4B9B500084C1D4 /* Debug */,
+				EC77A3F81F4B9B500084C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC5406E01F50BBFE00FF228B /* TickerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC5406E11F50BBFE00FF228B /* TickerModel.xcdatamodel */,
+			);
+			currentVersion = EC5406E11F50BBFE00FF228B /* TickerModel.xcdatamodel */;
+			path = TickerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC77A3BC1F4B9B500084C1D4 /* Project object */;
+}

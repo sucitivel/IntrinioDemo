@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13209.6" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Page" representedClassName="Page" syncable="YES" codeGenerationType="class">
+        <attribute name="pageIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="symbols" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Symbol" inverseName="pages" inverseEntity="Symbol" syncable="YES"/>
+    </entity>
+    <entity name="Symbol" representedClassName="Symbol" syncable="YES" codeGenerationType="class">
+        <attribute name="cik" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closePrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="highPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lowPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="openPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="pages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Page" inverseName="symbols" inverseEntity="Page" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Page" positionX="52" positionY="-270" width="128" height="90"/>
+        <element name="Symbol" positionX="-63" positionY="0" width="128" height="195"/>
+    </elements>
+</model>
